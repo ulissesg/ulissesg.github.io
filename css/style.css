@@ -1,0 +1,319 @@
+html{
+	background: #fcfcfc;
+	color: #616161;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 110%;
+	width: 100%;
+}
+
+body{
+	margin: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	color: inherit;
+	list-style-type: none;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+p{
+	text-indent: 5%;
+}
+.conteudo{
+	margin: auto;
+	width: 80%;
+}
+
+header{
+	background: white;
+	text-align: center;
+	border-bottom: 4px solid #0A9EFF;
+}
+
+hr { 
+	width: 80%;
+	background-color: #999999; 
+	border: 1px solid #999999; 
+	border-radius: 7px; 
+	height: 2px;
+}
+
+
+#imagem_cabecalho{
+	padding: 0;
+	margin: 0;
+}
+
+#logo_cabecalho{
+	padding: 3% 1.5% 1.5% 1.5%;
+	width: 12%;
+	height: 12%;
+}
+
+#hr_cabecalho{
+	width: 50%;
+	background-color: #999999; 
+	border: 1px solid #999999; 
+	border-radius: 7px; 
+	height: 1px;
+}
+
+#menu{
+	margin-bottom: 2%;
+}
+
+#menu li{
+	margin: auto;
+	width: 30.2%;
+	padding: 0.8%;
+}
+
+#menu li:hover{
+	border-radius: 5%;
+	background: #0A9EFF;
+	color: white;
+}
+
+#imagem_perfil{
+	text-align: center;
+}
+
+#foto_perfil{
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+}
+
+footer{
+	text-align: center;
+	margin: 0;
+	width: 100%
+	color: inherit;
+	border-top: 4px solid #0A9EFF;
+	background-color: #e6e6e6;
+}
+
+footer li{
+	margin: 2%;
+}
+
+#contato{
+	padding-bottom: 5%;
+}
+
+#lado_esquerdo_rodape{
+	margin: auto;
+	width: 100%;
+	padding: 2% 0 2% 0;
+}
+
+#logo_rodape{
+	width: 20%;
+	height: 20%;
+}
+
+#redes{
+	font-size: 125%;
+}
+
+#redes li{
+	display: inline-block;
+}
+
+#facebook:hover{
+	color: #3b5998;
+}
+
+#instagram:hover{
+	color: #125688;
+}
+
+#linkedin:hover{
+	color: #0e76a8;
+}
+
+#git{
+	padding: 0 0 5% 5.5%;
+}
+
+#git:hover{
+	color: #171515;
+}
+
+#icone_lattes{
+	width: 5%;
+	height: 5%;
+}
+
+#lattes{
+	padding-bottom: 3%;
+}
+
+#lattes li:hover{
+	color: black;
+}
+
+@media(min-width: 450px){
+
+	p{
+		text-align: justify;
+	}
+
+	#icone_lattes{
+		width: 3%;
+		height: 3%;
+	}
+}
+
+@media(min-width: 530px){
+	li{
+		display: inline-block;
+	}
+
+	#hr_cabecalho{
+		margin: 0;
+		padding: 0;
+		background: white;
+		border-color: white;
+	}
+
+	#menu{
+		margin-bottom: 0;
+	}
+
+	#menu li:hover{
+		border-radius: 5% 5% 0 0; 
+	}
+}
+
+@media(min-width: 720px){
+	#logo_cabecalho{
+		padding: 1.5% 0.8% 0.8% 0.8%;
+		width: 10%;
+		height: 10%;
+	}
+
+	#menu li{
+		width: 20%;
+	}
+
+	#logo_rodape{
+		width: 16%;
+		height: 16%;
+	}
+
+	#icone_lattes{
+		width: 2%;
+		height: 2%;
+	}
+}
+
+@media(min-width: 1030px){
+
+	html{
+		font-size: 130%;
+	}
+
+	body{
+		margin-top: 14%;
+	}
+
+	header{
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+
+	hr{
+		width: 0;
+		background-color: #e6e6e6;
+		border: 0;
+	}
+
+	#logo_cabecalho{
+		width: 6%;
+		height: 6%;
+	}
+
+	#menu li{
+		width: 9%;
+		font-size: 90%;
+	}
+
+	#foto_perfil{
+		width: 25%;
+		height: 25%;
+	}
+
+	#contato{
+		margin-top: 3%;
+		padding: 0;
+		margin-left: 9.5%;
+		width: 40%;
+		float: left;
+		text-align: left;
+	}
+
+	#contato h2{
+		padding-left: 1%;
+	}
+
+	#lado_esquerdo_rodape{
+		width: 40%;
+		margin-right: 6%;
+		text-align: right;
+		border: 0;
+	}
+
+	#imagem_rodape{
+		text-align: right;
+	}
+
+	#logo_rodape{
+		width: 30%;
+		height: 30%;
+	}
+
+	#redes {
+		font-size: 150%;
+		margin-bottom: 2%;
+		padding: 5% 7% 0 0;
+	}
+
+	#icone_lattes{
+		width: 1.8%;
+		height: 1.8%;
+	}
+}
+
+@media(min-width: 1230px){
+
+	#logo_cabecalho{
+		width: 5%;
+		height: 5%;
+		margin: auto;
+	}
+
+	#menu li{
+		width: 9%;
+		font-size: 90%;
+	}
+
+	#contato{
+		margin-top: 2%;
+	}
+
+	#icone_lattes{
+		width: 1.5%;
+		height: 1.5%;
+	}
+}
